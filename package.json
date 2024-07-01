@@ -1,0 +1,23 @@
+{
+  "name": "task",
+  "version": "1.0.0",
+  "description": "node task",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start" : "nodemon index.js"
+  },
+  "author": "Vivek Raj",
+  "license": "ISC",
+  "dependencies": {
+    "csvtojson": "^2.0.10",
+    "express": "^4.19.2",
+    "mongoose": "^8.4.4",
+    "multer": "^1.4.5-lts.1",
+    "node": "^20.15.0",
+    "node-schedule": "^2.1.1",
+    "nodemon": "^3.1.4",
+    "os": "^0.1.2",
+    "xlsx": "^0.18.5"
+  }
+}
